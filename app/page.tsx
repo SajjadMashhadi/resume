@@ -10,7 +10,7 @@ export default function Home(): React.ReactNode {
         <div className="text-[12px] text-gray-500 mt-[5px]">Iran, 1998</div>
       </div>
       <p className="text-justify">
-        I'm a Motivated Front End Developer with 4 years of experience in
+        I{"'"}m a Motivated Front End Developer with 4 years of experience in
         creating responsive and user-friendly web applications. Proficient in
         JS, React, Next, TypeScript, etc. Adept at collaborating with
         cross-functional teams to deliver high-quality software solutions that

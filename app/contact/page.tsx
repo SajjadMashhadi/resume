@@ -4,8 +4,8 @@ export default function Background() {
   return (
     <div className="pt-[30px]">
       <p className="text-justify">
-        Feel free to send a message if you need me on your team, as I'm
-        currently open t work.
+        Feel free to send a message if you need me on your team, as I{"'"}m
+        currently open to work.
       </p>
       <div>
         <div className="flex flex-col justify-center gap-[10px] mt-[25px] text-sm text-[lightslategray]">
