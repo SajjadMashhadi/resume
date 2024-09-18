@@ -15,7 +15,7 @@ const links: LinkType[] = [
 
 export default function Navbar() {
   return (
-    <div className="">
+    <div className=" ">
       <h3 className=" text-center lg:text-left text-9xl text-b text-[steelblue] font-bold">
         S
       </h3>

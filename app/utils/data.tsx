@@ -74,8 +74,9 @@ export const skillsData: skillsDataType[] = [
   {
     title: "CSS and styles",
     items: [
-      { text: "Tailwind", src: "/tailwind.svg" },
+      { text: "Tailwind CSS", src: "/tailwind.svg" },
       { text: "Material UI" },
+      { text: "Sass" },
     ],
   },
   {

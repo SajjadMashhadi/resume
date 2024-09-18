@@ -13,7 +13,10 @@ export default function SkillsGroup({
       <p className="mb-[5px] text-[13px]">{title} :</p>
       <div className="flex flex-row gap-[40px] content-center">
         {items.map((item) => (
-          <div className="flex flex-row content-center" key={item.text}>
+          <div
+            className="flex flex-row content-center gap-[5px] bg-[#d7d7d726] dark:bg-[#6a6a6a1c] py-[5px] px-[8px] rounded-[5px]"
+            key={item.text}
+          >
             {item.src ? (
               <Image src={item.src} width={20} height={20} alt={item.text} />
             ) : null}
