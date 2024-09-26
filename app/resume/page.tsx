@@ -52,7 +52,7 @@ export default function Page() {
           <p>Download link for resume (pdf):</p>
           <a
             target="_blank"
-            href="https://cvbuilder.me/Builder/Pdf/en/Template4/832ecea4-2e4d-44de-b446-d7e572c47472/MyResume-541[www.cvbuilder.me]968.pdf"
+            href="https://cvbuilder.me/Builder/Pdf/en/Template4/832ecea4-2e4d-44de-b446-d7e572c47472/MyResume-902[www.cvbuilder.me]48.pdf"
             className="  flex flex-row items-center w-fit hover:underline"
           >
             <Image

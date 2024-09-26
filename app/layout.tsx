@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "./ui/navbar";
 import ThemeProvider from "@/app/utils/ThemeProvider";
 import Image from "next/image";
+import Dialogue from "./ui/dialogue";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,11 +23,15 @@ export default function RootLayout({
       <body className="inter.className">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <div className=" dark:bg-gray-900   dark:text-gray-400 min-h-screen flex flex-row justify-center xl:justify-evenly xl:pl-[100px]">
-            <div className="flex flex-col lg:gap-20 lg:flex-row w-[360px] sm:w-[580px] lg:w-[780px] xl:w-[1300px] lg:pt-[90px] pb-24 ">
+            <div className="flex flex-col xl:gap-20 xl:flex-row w-[360px] sm:w-[580px] lg:w-[780px] xl:w-[1300px] xl:pt-[90px] justify-between  ">
               <Navbar />
-              <div className="flex flex-col xl:flex-row items-center xl:items-start h-fit w-full justify-between">
-                {children}
 
+              <div className="w-fit xl:w-[800px] mt-[20px] xl:mt-0">
+                {children}
+              </div>
+
+              <div className=" text-center relative">
+                <Dialogue />
                 <Image
                   className=" inline-block w-[400px] h-[400px] mt-[20px] "
                   width={400}
@@ -34,9 +39,6 @@ export default function RootLayout({
                   alt="developer"
                   src="/blue-programmer.svg"
                 />
-                {/* <div className="absolute right-[200px] top-[120px] p-[10px] rounded-[10px] bg-gray-100 dark:bg-gray-800 ">
-                  Hello! welcome to my page :)
-                </div> */}
               </div>
             </div>
           </div>

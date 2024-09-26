@@ -16,10 +16,10 @@ const links: LinkType[] = [
 export default function Navbar() {
   return (
     <div className=" ">
-      <h3 className=" text-center lg:text-left text-9xl text-b text-[steelblue] font-bold">
+      <h3 className=" text-center xl:text-left text-9xl text-b text-[steelblue] font-bold">
         S
       </h3>
-      <div className="flex flex-row justify-evenly lg:flex-col mt-[20px]">
+      <div className="flex flex-row justify-evenly xl:flex-col mt-[20px]">
         {links.map((link: LinkType) => (
           <LinkItem key={link.text} text={link.text} href={link.href} />
         ))}
