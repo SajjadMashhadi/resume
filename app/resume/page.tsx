@@ -9,7 +9,7 @@ export default function Page() {
           width={40}
           height={40}
           className=" max-w-[50px] rounded-[2px] "
-          src="/kharazmi.jfif"
+          src="/kharazmi.jpg"
           alt="kharazmi"
         />
         <div className="w-[1px] h-[80px] sm:h-[60px] lg:h-[40px] xl:h-[60px] 2xl:h-[35px] bg-gray-300 dark:bg-gray-700"></div>
@@ -17,7 +17,7 @@ export default function Page() {
           width={40}
           height={40}
           className=" max-w-[50px] rounded-[2px] "
-          src="/nahira.jfif"
+          src="/nahira.jpg"
           alt="nahira"
         />
         <div className="w-[1px] h-[765px] sm:h-[410px] lg:h-[340px] xl:h-[345px] bg-gray-300 dark:bg-gray-700"></div>
