@@ -3,7 +3,7 @@ import Gallery from "@/app/ui/gallery";
 
 export default function Page() {
   return (
-    <div className="flex flex-row gap-[10px] pt-[30px]">
+    <div className="flex flex-row gap-[10px] pt-[10px]">
       <div className="flex flex-col items-center pt-[3px] gap-[5px]">
         <Image
           width={40}
@@ -20,7 +20,7 @@ export default function Page() {
           src="/nahira.JFIF"
           alt="kharazmi"
         />
-        <div className="w-[1px] h-[848px] sm:h-[385px] lg:h-[340px] xl:h-[345px] bg-gray-300 dark:bg-gray-700"></div>
+        <div className="w-[1px] h-[765px] sm:h-[410px] lg:h-[340px] xl:h-[345px] bg-gray-300 dark:bg-gray-700"></div>
         <div className="w-[20px] h-[20px] rounded-[50%] bg-gray-300 dark:bg-gray-700"></div>
       </div>
       <div className=" flex flex-col pt-[10px] gap-[60px]">

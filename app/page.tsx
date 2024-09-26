@@ -2,7 +2,7 @@ import Profile from "./ui/profile";
 
 export default function Home(): React.ReactNode {
   return (
-    <main className="pt-5 flex flex-col gap-5 xl:pr-[100px]">
+    <main className="pt-5 flex flex-col gap-5 ">
       <div>
         <h1 className="text-3xl font-bold dark:text-white">Sajjad Mashhadi</h1>
         <div className="text-[12px] text-gray-500 mt-[5px]">
