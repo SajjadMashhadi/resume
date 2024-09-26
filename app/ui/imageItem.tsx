@@ -41,8 +41,8 @@ export default function ImageItem({
         className={clsx(
           "rounded-xl cursor-pointer border-[0.5px] border-solid border-[#80808062] dark:border-none",
           {
-            "hidden lg:inline-block h-[250px] w-60": vertical,
-            " h-auto sm:w-[280px] lg:h-[120px] w-[340px] sm:h-[140px] lg:w-60":
+            "hidden lg:inline-block h-[250px] w-[200px]": vertical,
+            " h-auto  lg:h-[120px] w-[300px] sm:w-[250px] sm:h-[140px] lg:w-[200px]":
               !vertical,
             "transition-all duration-500 blur-[4px]": blur,
           }

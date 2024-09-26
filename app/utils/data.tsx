@@ -81,6 +81,10 @@ export const skillsData: skillsDataType[] = [
   },
   {
     title: "State management",
-    items: [{ text: "Redux", src: "/redux.svg" }, { text: "ContextAPI" }],
+    items: [
+      { text: "Redux", src: "/redux.svg" },
+      { text: "Zustand" },
+      { text: "ContextAPI" },
+    ],
   },
 ];

@@ -26,6 +26,7 @@ export default function RootLayout({
               <Navbar />
               <div className="flex flex-col xl:flex-row items-center xl:items-start h-fit w-full justify-between">
                 {children}
+
                 <Image
                   className=" inline-block w-[400px] h-[400px] mt-[20px] "
                   width={400}
@@ -33,6 +34,9 @@ export default function RootLayout({
                   alt="developer"
                   src="/blue-programmer.svg"
                 />
+                {/* <div className="absolute right-[200px] top-[120px] p-[10px] rounded-[10px] bg-gray-100 dark:bg-gray-800 ">
+                  Hello! welcome to my page :)
+                </div> */}
               </div>
             </div>
           </div>
